@@ -65,7 +65,7 @@ $totalProducts = count($products);
                             <input type="text" class="form-control" placeholder="Search here" id="searchInput" onkeyup="searchTasks()">
                         </div>
 
-                        <div class="card mt-3">
+                        <div class="card mt-3 mb-3">
                             <div class="card-body">
                                 <h5 class="card-title">Total Products = <?= $totalProducts; ?></h5>
                             </div>

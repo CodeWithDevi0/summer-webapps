@@ -1,6 +1,6 @@
 <!-- 
 
-PHP Data Types
+// PHP Data Types //
 in this lesson, you'll learn about PHP data types including scalar types, compound types, and special types.
 
 Introduction to PHP data types
@@ -19,7 +19,7 @@ Special Types: "Resource", "NULL"
 Scalar Types
 A variable is a scalar when it holds a single value of the type integer, string, float, or boolean.
 
-// Integer
+// Integer //
 Integers are whole numbers defined in the set {... -3, -2, 1, 0, 1, 2, 3, ...}.
 The size of the integer depends on the platform where PHP runs.
 

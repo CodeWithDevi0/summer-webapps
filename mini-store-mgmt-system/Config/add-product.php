@@ -10,7 +10,7 @@ $sql = "INSERT INTO products (product_name, product_price, product_quantity) VAL
 $result = mysqli_query($conn, $sql);
 
 if ($result) {
-    header("Location: ../home.php?success=Product added successfully");
+    header("Location: ../homepage.php?success=Product added successfully");
 } else {
     echo "Error: " . mysqli_error($conn);
 }
