@@ -8,5 +8,9 @@
 <body>
     <h1><?= $title; ?></h1>
     <h2><?= "Hello, " . $lastname . " is your first name " . $firstname . "?" ?></h2>
+
+    <section>
+        <?= $footer; ?>
+    </section>
 </body>
 </html>
