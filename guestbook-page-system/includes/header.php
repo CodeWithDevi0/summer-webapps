@@ -10,8 +10,11 @@
                     </div>
                 <?php endif; ?>
             </div>
-            <div class="col-md-4">
-                <!-- nothing for now -->
+            <div class="col-md-4 text-end">
+                <i class="fa-solid fa-clock" style="font-size: 12px;"></i>
+                <span class="text-muted" style="font-size: 12px;">
+                    <?php echo date('d-m-Y'); ?>
+                </span>
             </div>
         </div>
         <hr>
