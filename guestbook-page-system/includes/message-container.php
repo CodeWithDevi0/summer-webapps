@@ -20,7 +20,7 @@ $totalMessages = count($messages);
                             <div class="card-text border border-dark rounded-3 p-3">
                                 <div class="d-flex justify-content-between">
                                     <p><?= $message['name']; ?></p>
-                                    <button class="tt border-0 bg-transparent" style="font-size: 12px;" data-bs-toggle="popover" data-bs-placement="top" title="<?= $message['message']; ?>"><i class="fa-solid fa-eye"></i></button>
+                                    <button class="tt border-0 bg-transparent" style="font-size: 12px; height: 20px;" data-bs-toggle="popover" data-bs-placement="top" title="<?= $message['message']; ?>"><i class="fa-solid fa-eye"></i></button>
                                 </div>
                                 <i class="text-muted d-block text-truncate">- <?= $message['message']; ?></i>
                                 <i class="text-muted" style="font-size: 10px;"><?= $message['created_at']; ?></i>
