@@ -23,7 +23,7 @@ document.getElementById('generate-quote').addEventListener('click', function() {
 
 
 /*
-explanation sa ai, I had to copy paste this one for future review
+Explanation sa ai, I had to copy paste this one for future review 
 AJAX vs Regular JavaScript:
 
 AJAX (Asynchronous JavaScript and XML):
@@ -40,6 +40,7 @@ Regular JavaScript:
 - Works with data already loaded in page
 - Example: document.getElementById(), Math.random()
 
+Akong question for this one is "Is this code using AJAX?"
 Yes, your code is using AJAX! Specifically:
 1. You're using the Fetch API (fetch()) which is a modern way to make AJAX requests
 2. It's asynchronous (uses .then() promises)
