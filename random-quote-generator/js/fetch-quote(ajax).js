@@ -23,7 +23,10 @@ document.getElementById('generate-quote').addEventListener('click', function() {
 
 
 /*
-Explanation sa ai, I had to copy paste this one for future review 
+Explanation sa ai, I had to copy paste this one for future review
+This is my first time trying to understand AJAX and I'm not sure if I'm doing it right.
+Koan just don't mind me chatting with myself here. This is for my future reference.
+
 AJAX vs Regular JavaScript:
 
 AJAX (Asynchronous JavaScript and XML):
