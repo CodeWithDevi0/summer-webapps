@@ -45,6 +45,15 @@ include 'config/db.php';
                 window.history.replaceState(null, "", cleanURL);
             }
         }, 2000);
+
+
+        // tooltip script
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
     </script>
+
+
 </body>
 </html>
