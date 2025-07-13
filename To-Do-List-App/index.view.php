@@ -107,7 +107,7 @@ if (isset($_GET['delete_id'])) {
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Search your task here</h5>
-                                                 <div class="input-group">
+                         <div class="input-group">
                              <input type="text" id="searchInput" class="form-control" placeholder="Search your task here">
                              <button class="btn btn-primary" id="searchBtn" onclick="searchTasks()">Search</button>
                          </div>

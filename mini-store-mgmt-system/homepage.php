@@ -54,9 +54,9 @@ $totalProducts = count($products);
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="action-buttons d-flex gap-2">
+                    <div class="action-buttons d-flex gap-3">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#addProductModal" class="btn btn-primary">Add Product</a>
-                        <a href="view-products.php" class="btn btn-primary">View Products</a>
+                        <a href="edit-products-page.php" class="btn btn-primary">Edit Products</a>
                         <a href="view-customer-loans.php" class="btn btn-primary">Customer Loans</a>
                     </div>
                     <div class="status container mt-3">

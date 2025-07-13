@@ -108,9 +108,9 @@ $result = $conn->query($sql);
 
 
     <!-- Footer Section -->
-    <!-- <footer class="bg-light text-center py-3 mt-5">
+    <footer class="bg-light text-center py-3 fixed-bottom">
         <small>&copy; 2025 Simple To-Do List</small>
-    </footer> -->
+    </footer>
 
 
 
