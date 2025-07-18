@@ -119,6 +119,7 @@ switch (condition/expression):
         // code to execute if the expression is not equal to any of the values
 endswitch;
 ?>
+
 The alternative syntax is suitable for mixing with the HTMl code.
 
 // Summary //
