@@ -1,0 +1,36 @@
+:root {
+ --primary-color: #320A28;
+ --secondary-color: #511730;
+ --tertiary-color: #8e443d;
+ --text-color: #ffffff;
+ --bg-color: #fdfdfd;
+
+}
+
+.header-title {
+    font-size: 4rem !important;
+    font-weight: 700 !important;
+    color: var(--primary-color);
+}
+
+.navbar{
+    background-color: var(--primary-color);
+}
+
+.navbar-nav :is(.nav-link){
+    color: var(--tertiary-color);
+}
+.navbar-nav :is(.nav-link:hover, .nav-link.active){
+    color: var(--text-color);
+}
+
+:is(.navbar-brand){
+    color: var(--tertiary-color);
+}
+.navbar-brand:hover{
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--bg-color);
+}
